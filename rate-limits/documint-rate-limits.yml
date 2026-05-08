@@ -15,21 +15,42 @@ tags:
 - Rate Limiting
 - Quotas
 - Throttling
-description: Placeholder rate-limit artifact for Documint. Replace with real limits once researched.
-notes: Initial scaffold — limits have not yet been reconciled.
+description: >-
+  Documint's primary throttle is the per-plan monthly merge bundle (every
+  generated document counts as one merge). Per-second numeric API ceilings
+  are not enumerated in public docs. The REST API is gated to the Platinum
+  tier and above.
+notes: >-
+  Reconciled flagged false until per-second numeric ceilings and concrete
+  per-plan merge bundles are publicly documented. 429 is returned when
+  bundles are exhausted or throttles are hit.
 sources:
-- https://www.documint.me/
+- https://documint.me/pricing
+- https://documint.me/integrations/rest-api
+- https://docs.documint.me/
 responseCodes:
   throttled: 429
 limits:
-- name: Default
+- name: Per-plan monthly merges
   scope: account
-  metric: varies
-  limit: see provider documentation
-  notes: Pending reconciliation.
+  metric: merges/month
+  limit: see plan
+  notes: Each generated document = 1 merge.
+- name: REST API requests
+  scope: api_token
+  metric: requests
+  limit: see Documint docs
+  notes: 429 on excess; numeric per-second ceiling not publicly documented.
+- name: REST API gating
+  scope: account
+  metric: plan-gate
+  limit: Platinum and Enterprise only
+  notes: Lower tiers (Silver, Gold) cannot call the REST API.
 policies:
 - name: Backoff Strategy
-  description: Clients should implement exponential backoff with jitter and honor any Retry-After header.
+  description: Honor 429; use exponential backoff.
+- name: API key scoping
+  description: Use api_key request header; one key per integration.
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

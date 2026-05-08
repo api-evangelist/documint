@@ -5,7 +5,7 @@ provider: Documint
 providerId: documint
 created: '2026-05-08'
 modified: '2026-05-08'
-reconciled: false
+reconciled: true
 tags:
 - Document Generation
 - PDF
@@ -15,10 +15,17 @@ tags:
 - FinOps
 - Cost Management
 - FOCUS
-description: FOCUS-aligned FinOps placeholder for Documint. Pipeline will replace with real billing details.
-notes: Initial scaffold — billing model has not yet been reconciled.
+description: >-
+  FOCUS-aligned FinOps profile for Documint. Billing is a flat monthly
+  subscription per tier; each generated document counts as a merge against
+  the plan's monthly bundle. REST API gating to Platinum+ is itself a cost
+  decision — teams that need automation must step up to the API tier.
+notes: >-
+  Documint does not store payload data, simplifying compliance posture.
+  Optimisation focuses on selecting the right tier (UI/integration vs.
+  REST API) and right-sizing the merge bundle.
 sources:
-- https://www.documint.me/
+- https://documint.me/pricing
 - https://focus.finops.org/focus-specification/v1-3/
 alignedWith:
   framework: FinOps Foundation Framework
@@ -29,13 +36,12 @@ alignedWith:
 publisherName: Documint
 serviceCategory: Document Generation
 billingModel:
-  pricingCategory: To Be Reconciled
-  billingFrequency: Monthly
+  pricingCategory: Subscription (merge-tiered)
+  billingFrequency: Monthly / Annual
   billingCurrency: USD
   chargeCategories:
-  - Usage
   - Purchase
-  - Adjustment
+  - Usage
 focusColumns:
   ServiceName: Documint
   ServiceCategory: Document Generation
@@ -43,24 +49,39 @@ focusColumns:
   PublisherName: Documint
   InvoiceIssuerName: Documint
   BillingCurrency: USD
-  ChargeCategory: Usage
+  ChargeCategory: Purchase
+  PricingUnit: plan-month
 meters:
-- name: api_usage
-  description: Catch-all meter pending reconciliation.
-  unit: varies
+- name: plan_subscription
+  description: Flat monthly Documint plan fee.
+  unit: month
   aggregation: sum
   dimensions:
   - account
-  - resource
+  - tier
+- name: merges
+  description: Documents generated (1 merge per document).
+  unit: merge
+  aggregation: sum
+  dimensions:
+  - account
+  - template
+  - integration
+- name: templates
+  description: Active templates in account (informational; tier-bound).
+  unit: template
+  aggregation: max
+  dimensions:
+  - account
 principles:
 - name: Visibility
-  description: Pull provider invoices or usage exports until a self-serve usage feed is documented.
+  description: Use Documint dashboard usage page; export merge counts per template.
 - name: Allocation
-  description: Tag invoice line items to consuming business units in your FinOps store.
+  description: Use template naming or per-integration API keys to allocate cost.
 - name: Optimization
-  description: Levers depend on the provider's billing model; review at renewal once reconciled.
+  description: Right-size tier; use UI on lower tiers + REST only when automation required; consolidate similar templates.
 - name: Accountability
-  description: Assign a contract owner to review billing against negotiated terms.
+  description: Assign template / integration owners; alert on monthly merge burn.
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

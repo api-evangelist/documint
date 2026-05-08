@@ -13,29 +13,94 @@ tags:
 - API
 - Workflow
 - Plans
-description: Placeholder plans/pricing artifact for Documint. Replace with real published pricing once
-  the pipeline researches the provider's plans page.
-notes: Initial scaffold — plans/pricing have not yet been reconciled.
+- Pricing
+description: >-
+  Documint sells multiple subscription tiers, with REST API access reserved
+  for the Platinum tier. Lower tiers (Silver, Gold) provide UI / integration
+  access only. Enterprise solutions for high-volume use cases are negotiated.
+notes: >-
+  Documint's public pricing page lists tier names and feature matrix but does
+  not always show numeric pricing without account creation. Reconciled
+  flagged false until numeric tier prices and merge bundles are confirmed.
 sources:
-- https://www.documint.me/
+- https://documint.me/pricing
+- https://documint.me/integrations/rest-api
 plans:
-- id: documint-default
-  name: To Be Reconciled
-  type: enterprise
-  description: Initial scaffold; replace with provider plan tiers once pricing is reconciled.
+- id: documint-free
+  name: Free
+  type: free
+  description: Free trial / starter tier. Limited monthly merges; watermarked output. No REST API access.
   entries:
-  - label: API Access
-    name: api_access
+  - label: Plan price
+    name: monthly_price
     type: flat
-    metric: varies
+    metric: month
     limit: -1
-    timeFrame: usage
+    timeFrame: month
     geo: global
     unit: 1
-    price: see https://www.documint.me/
+    price: 0
     userMultiplied: false
-  elements:
-  - name: Pending Reconciliation
+- id: documint-silver
+  name: Silver
+  type: subscription
+  description: Mid-tier UI / integration plan; no REST API access.
+  entries:
+  - label: Plan price
+    name: monthly_price
+    type: flat
+    metric: month
+    limit: -1
+    timeFrame: month
+    geo: global
+    unit: 1
+    price: see https://documint.me/pricing
+    userMultiplied: false
+- id: documint-gold
+  name: Gold
+  type: subscription
+  description: Higher-volume UI / integration plan; no REST API access.
+  entries:
+  - label: Plan price
+    name: monthly_price
+    type: flat
+    metric: month
+    limit: -1
+    timeFrame: month
+    geo: global
+    unit: 1
+    price: see https://documint.me/pricing
+    userMultiplied: false
+- id: documint-platinum
+  name: Platinum
+  type: subscription
+  description: Highest standard tier; includes REST API access. Merges, templates and storage scaled to plan.
+  entries:
+  - label: Plan price
+    name: monthly_price
+    type: flat
+    metric: month
+    limit: -1
+    timeFrame: month
+    geo: global
+    unit: 1
+    price: see https://documint.me/pricing
+    userMultiplied: false
+- id: documint-enterprise
+  name: Enterprise
+  type: enterprise
+  description: High-volume / custom enterprise pricing.
+  entries:
+  - label: Custom contract
+    name: enterprise_contract
+    type: flat
+    metric: contract
+    limit: -1
+    timeFrame: annual
+    geo: global
+    unit: 1
+    price: contact sales
+    userMultiplied: false
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
