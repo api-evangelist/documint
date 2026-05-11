@@ -55,6 +55,17 @@ common:
     url: rate-limits/documint-rate-limits.yml
   - type: FinOps
     url: finops/documint-finops.yml
+integrations:
+  - name: Chat with us
+  - name: Airtable
+  - name: HubSpot
+  - name: Coda
+  - name: Make
+  - name: Zapier
+  - name: Relay.app
+  - name: Stacker
+  - name: Softr
+  - name: Noloco
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
