@@ -1,7 +1,7 @@
 aid: documint
 url: https://raw.githubusercontent.com/api-evangelist/documint/refs/heads/main/apis.yml
 name: Documint
-x-type: company
+kind: company
 description: >-
   Documint is a programmatic document generation platform with a template
   editor, REST API and integrations with major CRMs and automation tools
