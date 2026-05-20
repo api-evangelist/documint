@@ -41,6 +41,8 @@ apis:
       - type: Integration
         url: https://documint.me/integrations/rest-api
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/documint-llc
   - type: Website
     url: https://www.documint.me/
   - type: Documentation
