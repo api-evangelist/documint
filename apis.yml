@@ -38,7 +38,7 @@ apis:
         url: https://docs.documint.me/
       - type: APIReference
         url: https://documenter.getpostman.com/view/11741160/TVK5cLxQ
-      - type: Integration
+      - type: Integrations
         url: https://documint.me/integrations/rest-api
 common:
   - type: LinkedIn
@@ -57,7 +57,7 @@ common:
     url: rate-limits/documint-rate-limits.yml
   - type: FinOps
     url: finops/documint-finops.yml
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://docs.documint.me/llms.txt
 integrations:
   - name: Chat with us
