@@ -1,0 +1,174 @@
+# Help Center
+
+## Help Center
+
+- [Home](https://docs.documint.me/home.md)
+- [Welcome to Documint!](https://docs.documint.me/introduction/welcome-to-documint.md): A digital instruction guide for using Documint
+- [Core Concepts](https://docs.documint.me/introduction/core-concepts.md)
+- [How it Works](https://docs.documint.me/introduction/how-it-works.md)
+- [Platform Quickstart Guides](https://docs.documint.me/introduction/platform-quickstart-guides.md)
+- [Airtable Quickstart Guide](https://docs.documint.me/introduction/platform-quickstart-guides/airtable-quickstart-guide.md): In this quick guide, you’ll learn step-by-step how to generate PDFs directly from your Airtable base using Documint!
+- [HubSpot Quickstart Guide](https://docs.documint.me/introduction/platform-quickstart-guides/hubspot-quickstart-guide.md): In this quick guide, you’ll learn step-by-step how to generate PDFs directly from a HubSpot contact using Documint!
+- [Zapier Quickstart Guide](https://docs.documint.me/introduction/platform-quickstart-guides/zapier-quickstart-guide.md): In this quick guide, you’ll learn step-by-step how to generate PDFs directly from Zapier using Documint!
+- [Make.com Quickstart Guide](https://docs.documint.me/introduction/platform-quickstart-guides/make.com-quickstart-guide.md): In this quick guide, you’ll learn step-by-step how to generate PDFs directly from Make.com using Documint!
+- [Coda Quickstart Guide](https://docs.documint.me/introduction/platform-quickstart-guides/coda-quickstart-guide.md): In this quick guide, you’ll learn step-by-step how to generate PDFs directly from Coda using Documint!
+- [Basic Tutorials](https://docs.documint.me/introduction/basic-tutorials.md)
+- [Enable Multi-Factor Authentication (MFA)](https://docs.documint.me/introduction/basic-tutorials/enable-multi-factor-authentication-mfa.md)
+- [Designing a Basic Template from Scratch](https://docs.documint.me/introduction/basic-tutorials/designing-a-basic-template-from-scratch.md)
+- [How to create Tables](https://docs.documint.me/introduction/basic-tutorials/how-to-create-tables.md)
+- [Preview Document](https://docs.documint.me/introduction/basic-tutorials/preview-document.md)
+- [Generating your First Document](https://docs.documint.me/introduction/basic-tutorials/generating-your-first-document.md): Instruction page to walk you through connecting your data and generating your first merged document.
+- [Template Designer v2 (Beta)](https://docs.documint.me/templates/template-designer-v2-beta.md)
+- [Document Structure &  Layout](https://docs.documint.me/templates/document-structure-and-layout.md)
+- [Settings](https://docs.documint.me/templates/document-structure-and-layout/settings.md): Configure your template's settings
+- [Headers & Footers](https://docs.documint.me/templates/document-structure-and-layout/headers-and-footers.md): Page headers are applied to the top and bottom margins of each page.
+- [Page Elements](https://docs.documint.me/templates/document-structure-and-layout/page-elements.md): Page elements are the building blocks of your template. They're used to add content and structure the layout of that content.
+- [Layout Elements](https://docs.documint.me/templates/document-structure-and-layout/page-elements/layout-elements.md)
+- [Content Elements](https://docs.documint.me/templates/document-structure-and-layout/page-elements/content-elements.md): Content elements are used for adding text, images, and spacing to your templates.
+- [Display Rule](https://docs.documint.me/templates/document-structure-and-layout/page-elements/display-rule.md)
+- [Repeat/Loop](https://docs.documint.me/templates/document-structure-and-layout/page-elements/repeat-loop.md)
+- [Deprecated Elements](https://docs.documint.me/templates/document-structure-and-layout/page-elements/deprecated-elements.md)
+- [Working with Dynamic Data](https://docs.documint.me/templates/working-with-dynamic-data.md)
+- [Connections](https://docs.documint.me/templates/working-with-dynamic-data/connections.md)
+- [Airtable Connection](https://docs.documint.me/templates/working-with-dynamic-data/connections/airtable-connection.md)
+- [HubSpot (Coming Soon)](https://docs.documint.me/templates/working-with-dynamic-data/connections/hubspot-coming-soon.md)
+- [Fields Editor](https://docs.documint.me/templates/working-with-dynamic-data/fields-editor.md)
+- [Field Tokens](https://docs.documint.me/templates/working-with-dynamic-data/field-tokens.md)
+- [Token Formatting](https://docs.documint.me/templates/working-with-dynamic-data/field-tokens/token-formatting.md): Format variables the way you want them to look
+- [Number](https://docs.documint.me/templates/working-with-dynamic-data/field-tokens/token-formatting/number.md)
+- [Date & Time](https://docs.documint.me/templates/working-with-dynamic-data/field-tokens/token-formatting/date-and-time.md)
+- [Text](https://docs.documint.me/templates/working-with-dynamic-data/field-tokens/token-formatting/text.md)
+- [Functions & Operators](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators.md)
+- [Syntax](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/syntax.md)
+- [Functions](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions.md)
+- [$calc](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/calc.md): The $calc function is a powerful expression evaluator that enables complex calculations, string manipulations, array operations, and provides a secure sandbox environment within your templates.
+- [$var](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/usdvar.md): Creates a custom variable in your template which you can access from other parts of your template
+- [Math](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/math.md)
+- [$add](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/math/usdadd.md): Add two numbers together
+- [$subtract](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/math/usdsubtract.md): Subtracts the second number from the first number.
+- [$multiply](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/math/usdmultiply.md): Multiplies two numbers together
+- [$divide](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/math/usddivide.md): Divides the first number by the second number.
+- [$sum](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/math/usdsum.md): Computes the sum of the values.
+- [$min](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/math/usdmin.md): Computes the minimum number in an array.
+- [$max](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/math/usdmax.md): Computes the maximum number in an array.
+- [$mean](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/math/usdmean.md): Computes the average of all values in an array.
+- [$round](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/math/usdround.md): Computes number rounded to precision.
+- [$floor](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/math/usdfloor.md): Computes number rounded down to precision.
+- [$ceil](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/math/usdceil.md): Computes number rounded up to precision.
+- [List/Arrays](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/list-arrays.md)
+- [#each](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/list-arrays/each.md): Loops over an array (list) of items.
+- [$filter](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/list-arrays/usdfilter.md): Filters an array/list of items.
+- [$group](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/list-arrays/usdgroup.md): Group items together and create a loop of those items
+- [$join](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/list-arrays/usdjoin.md): Concatenates an array (list) of items into a string.
+- [Helpers](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/helpers.md)
+- [$extname](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/helpers/usdextname.md): Returns the extension name of a filename.
+- [$inspect](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/helpers/usdinspect.md): Displays the raw merge data used to create the document. Useful for debugging your template when merging documents.
+- [Content](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/content.md)
+- [$link](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/content/usdlink.md): Creates a link to a given URL
+- [$md](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/functions/content/usdmd.md): Renders markdown content
+- [Operators](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/operators.md)
+- [Comparison Operators](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/operators/comparison-operators.md)
+- [Identity Operators](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/operators/identity-operators.md)
+- [Array Operators](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/operators/array-operators.md)
+- [String Operators](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/operators/string-operators.md)
+- [Logical Operators](https://docs.documint.me/templates/working-with-dynamic-data/functions-and-operators/operators/logical-operators.md)
+- [Legacy Formatting](https://docs.documint.me/templates/working-with-dynamic-data/legacy-formatting.md): Format variables the way you want them to look
+- [Number](https://docs.documint.me/templates/working-with-dynamic-data/legacy-formatting/number.md)
+- [Date & Time](https://docs.documint.me/templates/working-with-dynamic-data/legacy-formatting/date-and-time.md)
+- [HubSpot](https://docs.documint.me/integrations/hubspot.md)
+- [Installing the Documint app](https://docs.documint.me/integrations/hubspot/installing-the-documint-app.md)
+- [Connecting your Documint account](https://docs.documint.me/integrations/hubspot/connecting-your-documint-account.md)
+- [Navigating the Documint App](https://docs.documint.me/integrations/hubspot/navigating-the-documint-app.md)
+- [Working with Custom Object Data](https://docs.documint.me/integrations/hubspot/working-with-custom-object-data.md)
+- [Adding HubSpot Properties to Your Template](https://docs.documint.me/integrations/hubspot/adding-hubspot-properties-to-your-template.md)
+- [Adjust Template Settings](https://docs.documint.me/integrations/hubspot/adjust-template-settings.md)
+- [Generating Your documents](https://docs.documint.me/integrations/hubspot/generating-your-documents.md)
+- [Using Quick-Create](https://docs.documint.me/integrations/hubspot/using-quick-create.md)
+- [Using Workflows to Create Your Documents](https://docs.documint.me/integrations/hubspot/using-workflows-to-create-your-documents.md)
+- [Troubleshooting the Documint App](https://docs.documint.me/integrations/hubspot/troubleshooting-the-documint-app.md): This section provides solutions for addressing some of the most common problems you might face when using the Documint app.
+- [Uninstalling the Documint App](https://docs.documint.me/integrations/hubspot/uninstalling-the-documint-app.md)
+- [Airtable](https://docs.documint.me/integrations/airtable.md)
+- [Add your Airtable Personal Access Token](https://docs.documint.me/integrations/airtable/add-your-airtable-personal-access-token.md): How to connect your Airtable directly to your Documint account
+- [Connecting your Documint account with Airtable](https://docs.documint.me/integrations/airtable/connecting-your-documint-account-with-airtable.md): How to connect your Airtable directly to your Documint account
+- [Airtable Extension](https://docs.documint.me/integrations/airtable/airtable-extension.md)
+- [Generation Link](https://docs.documint.me/integrations/airtable/generation-link.md): The generation link integration available to every user type.
+- [Automation Script](https://docs.documint.me/integrations/airtable/automation-script.md): This feature allows you to create documents within Airtable, automatically, using Airtable automations.
+- [Adding Images from Airtable](https://docs.documint.me/integrations/airtable/adding-images-from-airtable.md): You can display images from attachment fields dynamically in your documents.
+- [Lookup Fields](https://docs.documint.me/integrations/airtable/lookup-fields.md): Displaying lookup fields in Documint
+- [Documents from  Multiple Records](https://docs.documint.me/integrations/airtable/documents-from-multiple-records.md)
+- [Duplicate Document Prevention](https://docs.documint.me/integrations/airtable/duplicate-document-prevention.md)
+- [Password Protection](https://docs.documint.me/integrations/airtable/password-protection.md)
+- [Legacy Airtable Integration](https://docs.documint.me/integrations/airtable/legacy-airtable-integration.md)
+- [Field Types  to Documint Variables](https://docs.documint.me/integrations/airtable/legacy-airtable-integration/field-types-to-documint-variables.md)
+- [Adding Images from Airtable](https://docs.documint.me/integrations/airtable/legacy-airtable-integration/adding-images-from-airtable.md): You can display images from attachment fields dynamically in your documents.
+- [Expanding Linked Records](https://docs.documint.me/integrations/airtable/legacy-airtable-integration/expanding-linked-records.md): Learn how to add a Table Id for your linked records
+- [Lookup Fields](https://docs.documint.me/integrations/airtable/legacy-airtable-integration/lookup-fields.md): Displaying lookup fields in Documint
+- [Documents from  Multiple Records](https://docs.documint.me/integrations/airtable/legacy-airtable-integration/documents-from-multiple-records.md)
+- [Creating Documents](https://docs.documint.me/integrations/airtable/legacy-airtable-integration/creating-documents.md)
+- [Preview Mode](https://docs.documint.me/integrations/airtable/legacy-airtable-integration/creating-documents/preview-mode.md)
+- [Zapier](https://docs.documint.me/integrations/zapier.md)
+- [Make.com](https://docs.documint.me/integrations/make.com.md): formerly Integromat
+- [Coda](https://docs.documint.me/integrations/coda.md)
+- [Stacker](https://docs.documint.me/integrations/stacker.md)
+- [Noloco](https://docs.documint.me/integrations/noloco.md)
+- [Softr](https://docs.documint.me/integrations/softr.md)
+- [Pory](https://docs.documint.me/integrations/pory.md)
+- [Documint Sign](https://docs.documint.me/e-signatures/documint-sign.md): This guide will demonstrate how to set up E-sign components in documents to send them directly from Documint to your clients. ✍️
+- [SignNow](https://docs.documint.me/e-signatures/signnow.md): This guide will demonstrate how to send a Documint document to be signed through SignNow using Zapier.
+- [How-To Videos](https://docs.documint.me/help-and-resources/how-to-videos.md): Troubleshooting and how-to videos for Documint features and functions
+- [Formatting Tokens](https://docs.documint.me/help-and-resources/how-to-videos/formatting-tokens.md)
+- [Airtable Integrations](https://docs.documint.me/help-and-resources/how-to-videos/airtable-integrations.md)
+- [Airtable Data & Token Videos](https://docs.documint.me/help-and-resources/how-to-videos/airtable-data-and-token-videos.md)
+- [How to filter items in your Documents](https://docs.documint.me/help-and-resources/how-to-videos/how-to-filter-items-in-your-documents.md)
+- [How to group items in your Documents](https://docs.documint.me/help-and-resources/how-to-videos/how-to-group-items-in-your-documents.md)
+- [Signing Documents with SignNow and Zapier](https://docs.documint.me/help-and-resources/how-to-videos/signing-documents-with-signnow-and-zapier.md)
+- [Add charts to your Documents with QuickChart.io](https://docs.documint.me/help-and-resources/how-to-videos/add-charts-to-your-documents-with-quickchart.io.md)
+- [Add a Word Cloud chart to your Documents with QuickChart.io](https://docs.documint.me/help-and-resources/how-to-videos/add-a-word-cloud-chart-to-your-documents-with-quickchart.io.md)
+- [Using Make.com (Integromat) to create line items in your documents](https://docs.documint.me/help-and-resources/how-to-videos/using-make.com-integromat-to-create-line-items-in-your-documents.md)
+- [How to QR codes to your documents with QuickChart.io](https://docs.documint.me/help-and-resources/how-to-videos/how-to-qr-codes-to-your-documents-with-quickchart.io.md)
+- [How to add a progress chart to your documents with QuickChart.io](https://docs.documint.me/help-and-resources/how-to-videos/how-to-add-a-progress-chart-to-your-documents-with-quickchart.io.md)
+- [How to connect your Documint account using API keys](https://docs.documint.me/help-and-resources/how-to-videos/how-to-connect-your-documint-account-using-api-keys.md)
+- [How to connect your Documint account to Airtable using your Personal Access Token (PAT)](https://docs.documint.me/help-and-resources/how-to-videos/how-to-connect-your-documint-account-to-airtable-using-your-personal-access-token-pat.md)
+- [Troubleshooting](https://docs.documint.me/help-and-resources/troubleshooting.md): This section provides solutions for common issues you might encounter while using the Documint app.
+- [Frequently Asked Questions](https://docs.documint.me/help-and-resources/frequently-asked-questions.md): Here are some answers to our customers most frequently asked questions.
+- [Glossary](https://docs.documint.me/help-and-resources/glossary.md): Documint terms
+- [Minted Documents](https://docs.documint.me/help-and-resources/minted-documents.md): Removing the Documint branding watermark
+- [Adding Variables](https://docs.documint.me/legacy-documentation/adding-variables.md): Variables give templates their superpowers. They tell Documint where to place your data in your document.
+- [Display Rule](https://docs.documint.me/legacy-documentation/display-rule.md): Show or hide elements in your document based on the data being merged. Former Conditional Logic.
+- [Repeating Elements](https://docs.documint.me/legacy-documentation/repeating-elements.md): Repeat an element (eg. Row, Column, etc.) for each item in a list of data.
+- [Data and Variables](https://docs.documint.me/legacy-documentation/data-and-variables.md): Variables give templates their superpowers. They tell Documint where to place your data in your document.
+- [Data Types](https://docs.documint.me/legacy-documentation/data-and-variables/data-types.md): Learn how to work with different data types in your templates.
+- [Functions](https://docs.documint.me/legacy-documentation/data-and-variables/functions.md): Functions allow you to manipulate data in your template
+- [$calc](https://docs.documint.me/legacy-documentation/data-and-variables/functions/calc.md): The $calc function is a powerful expression evaluator that enables complex calculations, string manipulations, array operations, and provides a secure sandbox environment within your templates.
+- [Operators](https://docs.documint.me/legacy-documentation/data-and-variables/operators.md)
+- [How-To Videos](https://docs.documint.me/legacy-documentation/how-to-videos.md): Troubleshooting and how-to videos for Documint features and functions
+- [Formatting Variables](https://docs.documint.me/legacy-documentation/how-to-videos/formatting-variables.md)
+- [Airtable Integrations](https://docs.documint.me/legacy-documentation/how-to-videos/airtable-integrations.md)
+- [Airtable Data and Variables Videos](https://docs.documint.me/legacy-documentation/how-to-videos/airtable-data-and-variables-videos.md)
+- [How to add variable images from your Airtable attachments](https://docs.documint.me/legacy-documentation/how-to-videos/how-to-add-variable-images-from-your-airtable-attachments.md)
+- [How to filter items in your Documents](https://docs.documint.me/legacy-documentation/how-to-videos/how-to-filter-items-in-your-documents.md)
+- [How to group items in your Documents](https://docs.documint.me/legacy-documentation/how-to-videos/how-to-group-items-in-your-documents.md)
+- [Signing Documents with SignNow and Zapier](https://docs.documint.me/legacy-documentation/how-to-videos/signing-documents-with-signnow-and-zapier.md)
+- [Add charts to your Documents with QuickChart.io](https://docs.documint.me/legacy-documentation/how-to-videos/add-charts-to-your-documents-with-quickchart.io.md)
+- [Add a Word Cloud chart to your Documents with QuickChart.io](https://docs.documint.me/legacy-documentation/how-to-videos/add-a-word-cloud-chart-to-your-documents-with-quickchart.io.md)
+- [Using Make.com (Integromat) to create line items in your documents](https://docs.documint.me/legacy-documentation/how-to-videos/using-make.com-integromat-to-create-line-items-in-your-documents.md)
+- [How to QR codes to your documents with QuickChart.io](https://docs.documint.me/legacy-documentation/how-to-videos/how-to-qr-codes-to-your-documents-with-quickchart.io.md)
+- [How to add a progress chart to your documents with QuickChart.io](https://docs.documint.me/legacy-documentation/how-to-videos/how-to-add-a-progress-chart-to-your-documents-with-quickchart.io.md)
+- [How to connect your Documint account using API keys](https://docs.documint.me/legacy-documentation/how-to-videos/how-to-connect-your-documint-account-using-api-keys.md)
+- [How to connect your Documint account to Airtable using your Personal Access Token (PAT)](https://docs.documint.me/legacy-documentation/how-to-videos/how-to-connect-your-documint-account-to-airtable-using-your-personal-access-token-pat.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.documint.me/home.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
